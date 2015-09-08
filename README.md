@@ -1,11 +1,11 @@
-# FixedLengthParser
+# FixedLengthHelper
 
-[![Build Status](https://travis-ci.org/g-alonso/FixedLengthParser.svg)](https://travis-ci.org/g-alonso/FixedLengthParser)
-[![Coverage Status](https://coveralls.io/repos/g-alonso/FixedLengthParser/badge.svg?branch=master&service=github)](https://coveralls.io/github/g-alonso/FixedLengthParser?branch=master)
+[![Build Status](https://travis-ci.org/g-alonso/FixedLengthHelper.svg)](https://travis-ci.org/g-alonso/FixedLengthHelper)
+[![Coverage Status](https://coveralls.io/repos/g-alonso/FixedLengthHelper/badge.svg?branch=master&service=github)](https://coveralls.io/github/g-alonso/FixedLengthHelper?branch=master)
 
 ## About
 
-The `FixedLengthParser` class is a read-only helper to parse fixed-length text records.
+The `FixedLengthHelper` class is a read-only helper to parse fixed-length text records.
 
 ## Requirements
 
@@ -15,7 +15,7 @@ PHP 5.3
 
 ```
 
-require_once "src/FixedLengthParser/Parser.php";
+require_once "src/Galonso/FixedLengthHelper/Parser.php";
 
 /**
 * @var $config FieldName => Size

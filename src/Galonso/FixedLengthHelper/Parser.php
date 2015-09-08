@@ -11,7 +11,7 @@
 * @license   WTFPL - http://www.wtfpl.net/txt/copying/
 * @link      https://github.com/g-alonso/FixedLengthParser
 */
-namespace FixedLengthParser;
+namespace Galonso\FixedLengthHelper;
 use InvalidArgumentException;
 use RuntimeException;
 
