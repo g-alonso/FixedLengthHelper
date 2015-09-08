@@ -40,9 +40,7 @@ class ParserTest  extends \PHPUnit_Framework_TestCase
         $parser = new Parser($inputFile, $config);
     }
 
-    /**
-     * @expectedException \RuntimeException
-     */
+    
     //public function testReadException()
     //{
     //    $inputFile = __DIR__."/denied.txt";
