@@ -12,6 +12,8 @@
 * @link      https://github.com/g-alonso/FixedLengthParser
 */
 namespace FixedLengthParser;
+use InvalidArgumentException;
+use RuntimeException;
 
 /**
 * Parser
@@ -47,16 +49,16 @@ class Parser
     public function __construct($file, $config)
     {
         if (!is_string($file) || !file_exists($file)) {
-            throw new \InvalidArgumentException(
+            throw new InvalidArgumentException(
                 "Expects parameter 1 to be a valid file path"
             );
         }
 
-        $fileData = @file($file);
-
-        if ($fileData == false) {
-            throw new \RuntimeException("Unable to read file $file");
+        if (!is_readable($file)) {
+            throw new RuntimeException("Unable to read file $file");
         }
+
+        $fileData = file($file);
 
         $this->fileData = $fileData;
         $this->config = $config;
