@@ -1,0 +1,16 @@
+{
+    "name": "galonso/fixed-length-parser",
+    "description": "Helper to parse fixed-length text records",
+    "authors": [
+        {
+            "name": "Gabriel Alonso",
+            "email": "gbr.alonso@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "satooshi/php-coveralls": "dev-master"
+    }
+}
