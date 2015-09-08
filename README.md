@@ -21,6 +21,8 @@ require_once "src/Galonso/FixedLengthHelper/Parser.php";
 * @var $config FieldName => Size
 */
 
+use Galonso/FixedLengthHelper/Parser;
+
 $config = array(
     "Name" => 30,
     "Age" => 3,
@@ -31,5 +33,7 @@ $parser = new Parser("myfile.txt", $config);
 
 $data = $parser->extract();
 
-
 ```
+
+## TODO
+Add Writer
