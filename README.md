@@ -4,6 +4,9 @@
 
 The `FixedLengthParser` class is a read-only helper to parse fixed-length text records.
 
+[![Build Status](https://travis-ci.org/g-alonso/FixedLengthParser.svg)](https://travis-ci.org/g-alonso/FixedLengthParser)
+[![Coverage Status](https://coveralls.io/repos/g-alonso/FixedLengthParser/badge.svg?branch=master&service=github)](https://coveralls.io/github/g-alonso/FixedLengthParser?branch=master)
+
 ## Requirements
 
 PHP 5.3
