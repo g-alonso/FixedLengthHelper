@@ -1,5 +1,5 @@
 {
-    "name": "galonso/fixed-length-parser",
+    "name": "galonso/fixed-length-helper",
     "description": "Helper to parse fixed-length text records",
     "authors": [
         {
