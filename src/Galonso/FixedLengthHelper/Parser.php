@@ -9,7 +9,7 @@
 * @author    Gabriel Alonso <gbr.alonso@gmail.com>
 * @copyright 2015 Galonso
 * @license   WTFPL - http://www.wtfpl.net/txt/copying/
-* @link      https://github.com/g-alonso/FixedLengthParser
+* @link      https://github.com/g-alonso/FixedLengthHelper
 */
 namespace Galonso\FixedLengthHelper;
 use InvalidArgumentException;
@@ -22,7 +22,7 @@ use RuntimeException;
 * @author    Gabriel Alonso <gbr.alonso@gmail.com>
 * @copyright 2015 Galonso
 * @license   WTFPL - http://www.wtfpl.net/txt/copying/
-* @link      https://github.com/g-alonso/FixedLengthParser
+* @link      https://github.com/g-alonso/FixedLengthHelper
 */
 class Parser
 {

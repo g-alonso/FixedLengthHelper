@@ -5,7 +5,7 @@
 
 ## About
 
-The `FixedLengthHelper` class is a read-only helper to parse fixed-length text records.
+The `FixedLengthHelper` class is a ~~read-only~~ helper to parse fixed-length text records.
 
 ## Requirements
 
