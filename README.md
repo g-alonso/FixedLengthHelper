@@ -1,7 +1,7 @@
 # FixedLengthHelper
 
 [![Build Status](https://travis-ci.org/g-alonso/FixedLengthHelper.svg?branch=master)](https://travis-ci.org/g-alonso/FixedLengthHelper)
-[![Coverage Status](https://coveralls.io/repos/g-alonso/FixedLengthParser/badge.svg?branch=master&service=github)](https://coveralls.io/github/g-alonso/FixedLengthParser?branch=master)
+[![Coverage Status](https://coveralls.io/repos/g-alonso/FixedLengthHelper/badge.svg?branch=master&service=github)](https://coveralls.io/github/g-alonso/FixedLengthHelper?branch=master)
 
 ## About
 
