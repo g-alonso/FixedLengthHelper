@@ -36,4 +36,4 @@ $data = $parser->extract();
 ```
 
 ## TODO
-Add Writer
+Add Validations
