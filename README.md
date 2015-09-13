@@ -5,7 +5,7 @@
 
 ## About
 
-The `FixedLengthHelper` class is a helper to parse and write fixed-length text records.
+The `FixedLengthHelper` is a helper to parse and write fixed-length text records.
 
 ## Requirements
 
