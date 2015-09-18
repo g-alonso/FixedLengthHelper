@@ -18,11 +18,11 @@ PHP 5.3
 
 require_once "src/Galonso/FixedLengthHelper/Parser.php";
 
-/**
-* @var $config FieldName => Size
-*/
-
 use Galonso/FixedLengthHelper/Parser;
+
+/**
+* @var $config FieldName => Length
+*/
 
 $config = array(
     "Name" => 30,
@@ -33,6 +33,26 @@ $config = array(
 $parser = new Parser("myfile.txt", $config);
 
 $data = $parser->extract();
+
+```
+
+## Writer Usage
+
+```
+
+require_once "src/Galonso/FixedLengthHelper/Writer.php";
+
+use Galonso/FixedLengthHelper/Writer;
+
+$writer = new Writer(
+            array( 
+                0 => array("nombre" => "Carlos", "apellido" => "Gardel"), 
+                1 => array("nombre" => "Diego", "apellido" => "Maradona")
+            ),
+            array("nombre" => 10, "apellido" => 10)
+        );
+
+$writer->write(__DIR__."/file.txt");
 
 ```
 
