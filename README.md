@@ -11,9 +11,10 @@ The `FixedLengthHelper` is a helper to parse and write fixed-length text records
 
 PHP 5.3
 
-## Usage
+## Parser Usage
 
 ```
+<?php
 
 require_once "src/Galonso/FixedLengthHelper/Parser.php";
 
