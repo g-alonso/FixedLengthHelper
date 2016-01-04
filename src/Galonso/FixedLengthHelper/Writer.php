@@ -51,7 +51,7 @@ class Writer
 
         foreach ($this->data as $k => $data) {
             foreach ($this->map as $field => $length) {
-                if (array_key_exists($field, $data) == false) {
+                if (array_key_exists($field, $data) === false) {
                     throw new \Exception("Invalid configuration. Field $field not found.");
                 }
             }
