@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/g-alonso/FixedLengthHelper.svg?branch=master)](https://travis-ci.org/g-alonso/FixedLengthHelper)
 [![Coverage Status](https://coveralls.io/repos/g-alonso/FixedLengthHelper/badge.svg?branch=master&service=github)](https://coveralls.io/github/g-alonso/FixedLengthHelper?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/g-alonso/FixedLengthHelper/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/g-alonso/FixedLengthHelper/?branch=master)
 
 ## About
 
