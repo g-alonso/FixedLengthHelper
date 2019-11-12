@@ -78,7 +78,7 @@ class Parser
                 $row = array();
                 $start = 0;
                 foreach ($this->config as $field => $length) {
-                    $row[$field] = trim(substr($line, $start, $length));
+                    $row[$field] = trim(mb_substr($line, $start, $length));
                     $start += $length;
                 }
                 $return[] = $row;
